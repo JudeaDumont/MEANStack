@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    dbMsg= dbMsg
+    coll= coll
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //The plan is to increment some key in mongoDB and then display it in the welcome message
+    script(src='/javascripts/index.js')
+  body
+    block content
