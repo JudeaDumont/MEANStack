@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+var mongoDB = require('../mongoInit'); //todo:will this break if mongo is not running?
 var app = require('../app');
 var debug = require('debug')('untitled:server');
 var http = require('http');
